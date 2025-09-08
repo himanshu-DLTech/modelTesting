@@ -108,7 +108,7 @@ Expected: def add(a, b): return a + b
 Output: def add(a, b): return a+b
 --------------------------------
 Test Case 2: FAIL
-Prompt: Generate Fibonacci sequence up to n
+Prompt: Generate the Fibonacci sequence up to n
 Expected: Recursive or iterative implementation
 Output: Incorrect formatting
 --------------------------------
@@ -130,7 +130,3 @@ Final Score: 66.7%
 ## 🤝 Contributing
 Feel free to open issues or submit pull requests for improvements.
 
----
-
-## 📜 License
-This project is licensed under the MIT License.
