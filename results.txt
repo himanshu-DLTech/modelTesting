@@ -1,0 +1,39 @@
+Task: Data Cleaning
+Score: 0/2
+Status: ❌ Failed
+Reason: Missing keyword: Missing values before cleaning
+Missing keyword: Missing values after cleaning
+
+------------------------------------------------------------
+Task: Statistical Analysis
+Score: 3/3
+Status: ✅ Passed
+Reason: All checks passed
+------------------------------------------------------------
+Task: Data Visualization
+Score: 3/3
+Status: ✅ Passed
+Reason: All checks passed
+------------------------------------------------------------
+Task: Machine Learning
+Score: 0/4
+Status: ❌ Failed
+Reason: Runtime Error:
+Traceback (most recent call last):
+  File "/root/testModel.py", line 166, in run_generated_code
+    exec(code, {})
+  File "<string>", line 9, in <module>
+ModuleNotFoundError: No module named 'seaborn'
+
+------------------------------------------------------------
+Task: Optimization
+Score: 0/2
+Status: ❌ Failed
+Reason: Missing keyword: nearest
+Missing keyword: plt.plot
+
+------------------------------------------------------------
+=== FINAL SUMMARY ===
+Model: llama3.1:70b
+Total Score: 6/14
+Passed Cases: 2/5

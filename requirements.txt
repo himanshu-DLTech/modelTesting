@@ -1,0 +1,5 @@
+ollama
+pandas
+matplotlib
+scikit-learn
+scipy
